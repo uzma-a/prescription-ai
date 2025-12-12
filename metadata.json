@@ -1,0 +1,7 @@
+{
+  "name": "Prescription Decoder AI",
+  "description": "An AI-powered tool to decode handwritten prescriptions into simplified, translated explanations for patients.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
