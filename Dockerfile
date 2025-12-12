@@ -10,7 +10,8 @@ ARG GEMINI_API_KEY
 WORKDIR /app
 
 # Copy the dependency files first to enable Docker layer caching
-COPY package.json package-lock.json ./
+COPY package.json ./
+
 
 # Install dependencies
 RUN npm install
