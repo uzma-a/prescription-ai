@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💊 PrescriptionDecoder AI
 
-# Run and deploy your AI Studio app
+PrescriptionDecoder AI is an AI-powered application that converts complex and hard-to-read medical prescriptions into clear, easy-to-understand explanations. It also provides voice output and supports multiple languages for better accessibility.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1DSKCbyDAT-ztalCIfv2u_gFkespNmH7h
+## 🚀 Features
 
-## Run Locally
+- Decode handwritten or complex prescriptions
+- Simple and human-friendly explanations
+- Voice output (Text-to-Speech)
+- Multilingual support (English & Hindi)
+- Image-based prescription input
+- Fast and accurate AI processing
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Python
+- Gemini API
+- Google Cloud Run
+- Text-to-Speech (TTS)
+- AI Studio
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/prescription-decoder-ai.git
+cd prescription-decoder-ai
+```
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+```
+
+```
+pip install -r requirements.txt
+```
+
+Create a .env file and add:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+Run the app:
+```
+python app.py
+```
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only. Always consult a qualified doctor before taking any medication.
